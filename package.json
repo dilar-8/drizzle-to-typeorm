@@ -1,14 +1,22 @@
 {
-  "name": "orm",
+  "name": "drizzle-to-typeorm",
   "version": "1.0.0",
-  "description": "",
+  "description": "A utility to convert Drizzle ORM schema definitions into TypeORM EntitySchema format.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "drizzle",
+    "typeorm",
+    "orm",
+    "schema",
+    "conversion",
+    "database",
+    "migration"
+  ],
+  "author": "Dilar Gelenava",
+  "license": "MIT",
   "dependencies": {
     "ts-node": "^10.9.2",
     "typeorm": "^0.3.24",
